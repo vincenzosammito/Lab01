@@ -55,6 +55,11 @@ Infine, il programma deve salvare nel file "punti.txt" il punteggio raggiunto, n
 
 Considerando che il file può contenere anche altre righe, il file di output deve essere salvato inserendo i punteggi dei giocatori in ordine decrescente di punteggio.
 
+HINTS:
+- Definire la classe "domanda" che abbia come attributi tutte le caratteristiche della domanda da sottoporre all'utente.
+- La logica del gioco in una prima fase può essere interamente contenuta in un file di main.
+- Valutare come ulteriore miglioria la possibilità di definire una classe "game" che gestisca le dinamiche di gioco, da chiamare nel file di main, insieme ad una classe Player per gestire una lista di giocatori e punteggi. 
+
 ***Esempio file "punti.txt"***
 ```
 Paolo 4
